@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/Image.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    position: sticky;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00000066;
+    opacity: 1;
+    border-bottom: 2px solid #FFFFFF33;
+}
